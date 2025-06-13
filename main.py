@@ -264,8 +264,8 @@ def spammer():
         print("If you have no tokens in tokens.txt, then it won't work")
         config = {
             "details": "PAID VERSION",
-            "state": "https://guns.lol/7884",
-            "name": "7884's Multitool",
+            "state": "https://guns.lol/1gz",
+            "name": "1gz's Multitool",
         }
 
         class Onliner:
@@ -441,7 +441,7 @@ def spammer():
                         await ctx.guild.create_text_channel(channelsname)
                         print(f"[{Fore.LIGHTGREEN_EX}>{Fore.RESET}] Created: #{channel.name}")
                 except Exception as er:
-                    print(f"[{Fore.LIGHTRED_EX]!{Fore.RESET}] Error: {er}")
+                    print(f"[{Fore.LIGHTRED_EX}!{Fore.RESET}] Error: {er}")
             try:
                 seveneighteightfour.run(token)
             except Exception as er:
@@ -753,7 +753,7 @@ def spammer():
         # About
         Spinner()
         setTitle(f"About    |    ")
-        Write.Print("\nHello, thanks for using 7884's Multitool!\nif you run into any problems make sure to let me know asap!\nDiscord: x7884\nWebsite: https://guns.lol/7884\n\n", Colors.purple_to_blue, interval=0.015)
+        Write.Print("\nHello, thanks for using 1gz's Multitool!\nif you run into any problems make sure to let me know asap!\nDiscord: 1gz\nWebsite: https://guns.lol/1gz\n\n", Colors.purple_to_blue, interval=0.015)
 
         time.sleep(1)
         exit = input('[\x1b[95m>\x1b[95m\x1B[37m] Press ENTER: ')
@@ -803,9 +803,9 @@ if __name__ == "__main__":
                 os.system("""if not exist "./chromedriver.exe" echo [+] Downloading Drivers: """)
                 os.system("""if not exist "./chromedriver.exe" curl -#fkLo "./chromedriver.exe" "https://github.com/TT-Tutorials/addons/raw/main/chromedriver.exe" """)
                 if os.path.basename(sys.argv[0]).endswith("exe"):
-                    if not os.path.exists(getTempDir()+"\\7884_proxies"):
+                    if not os.path.exists(getTempDir()+"\\1gz_proxies"):
                        clear()
                 else:
-                    if not os.path.exists(getTempDir()+"\\7884_proxies"):
+                    if not os.path.exists(getTempDir()+"\\1gz_proxies"):
                         clear()
 spammer()
