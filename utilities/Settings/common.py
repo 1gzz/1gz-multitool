@@ -393,7 +393,7 @@ l = len(items)
 
 def proxy_scrape(): 
     startTime = time.time()
-    temp = getTempDir()+"\\7884_proxies"                               
+    temp = getTempDir()+"\\1gz_proxies"                               
 #    Write.Print("\n\n\n\n\n\n\n\n\n\n                                          Collecting Proxies | Please Wait... \n", Colors.purple_to_blue, interval=0.010)
 
 
@@ -403,14 +403,14 @@ def proxy_scrape():
 def setTitle(_str):
     system = os.name
     if system == 'nt':
-        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str}7884's Multitool    |    Made by x7884    |    Tokens: [{counttokens}]")
+        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str}1gz's Multitool    |    Made by 1gz    |    Tokens: [{counttokens}]")
     elif system == 'posix':
-        sys.stdout.write(f"{_str}7884's Multitool    |    Made by x7884    |    Tokens: [{counttokens}]")
+        sys.stdout.write(f"{_str}1gz's Multitool    |    Made by 1gz    |    Tokens: [{counttokens}]")
     else:
         pass
 
 def proxy():
-    temp = getTempDir()+"\\7884_proxies"
+    temp = getTempDir()+"\\1gz_proxies"
     if os.stat(temp).st_size == 0:
         proxy_scrape()
     proxies = open(temp).read().split('\n')
@@ -463,13 +463,12 @@ def getheaders(token=None):
 
 seveneighteightfourhehe = r'''
 
-
-███████╗░█████╗░░█████╗░░░██╗██╗
-╚════██║██╔══██╗██╔══██╗░██╔╝██║
-░░░░██╔╝╚█████╔╝╚█████╔╝██╔╝░██║
-░░░██╔╝░██╔══██╗██╔══██╗███████║
-░░██╔╝░░╚█████╔╝╚█████╔╝╚════██║
-░░╚═╝░░░░╚════╝░░╚════╝░░░░░░╚═╝
+ __   _____  ______ 
+/_ | /  ___| |___ / 
+ | | | |       / / 
+ | | | |  _   / /   
+ | | | |_| | / /__  
+ |_| \\____/ /_____|
 
 PRESS ENTER TO CONTINUE
 '''
